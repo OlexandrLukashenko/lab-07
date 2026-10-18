@@ -1,4 +1,4 @@
-# Lab 05 — TypeScript, Zod and authoritative multiplayer
+# Lab 07 — TypeScript, Zod and authoritative multiplayer
 
 A small deterministic multiplayer space arena. The server is the authority: clients send control input, never positions. The server advances the world at a target 30 Hz and broadcasts snapshots. Rooms, room chat, runtime message validation, a binary input packet, a basic HUD and network status indicator are included.
 
